@@ -26,7 +26,7 @@ panthiya gdgHamuwa
 		kiyanna "shrithaya athule\n";
 	}
 }
-
+```
 
 Building Sing-PHP
 
@@ -35,12 +35,12 @@ Building Sing-PHP
 ./configure --enable-cli
 make
 make install
-
+```
 
 ```
 make Zend/zend_language_parser.lo && make Zend/zend_language_scanner.i
 make install
-
+```
 
 The PHP Interpreter
 ===================
