@@ -1,3 +1,47 @@
+# sing-php
+Singlish PHP Transliterate PHP
+
+
+```
+<?php
+
+$a = 1;
+
+kiyanna "Ayubowan\n";
+
+($a == 1) wunoth {
+	kiyanna "Oba Hari\n";
+} nathnam {
+	kiyanna "Oba waradi\n";
+}
+
+$obj = nawa gdgHamuwa();
+$obj->foo();
+
+
+panthiya gdgHamuwa
+{
+	podu shrithaya foo()
+	{
+		kiyanna "shrithaya athule\n";
+	}
+}
+
+
+Building Sing-PHP
+
+```
+./buildconf
+./configure --enable-cli
+make
+make install
+
+
+```
+make Zend/zend_language_parser.lo && make Zend/zend_language_scanner.i
+make install
+
+
 The PHP Interpreter
 ===================
 
